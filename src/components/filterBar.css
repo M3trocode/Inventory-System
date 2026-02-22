@@ -1,0 +1,22 @@
+.filter-bar {
+  display: flex;
+  gap: 16px;
+  margin: 24px 0;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  
+}
+
+.filter-bar > * {
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+
+  
+}
+
+.filter-bar > *:hover {
+  transform: translateY(-3px);
+  border-color: #22c55e;
+}
+
+

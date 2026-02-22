@@ -1,0 +1,128 @@
+.issue-device-page h1 {
+  margin-bottom: 16px;
+}
+
+/* Keep page centered and constrained so card cannot overflow */
+.issue-device-page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.issue-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden; /* prevent horizontal scroll */
+  overflow-y: visible; /* allow dropdowns to overflow vertically */
+}
+
+.issue-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+  font-size: 14px;
+}
+
+/* Field wrapper when CustomSelect sits outside the label element */
+.issue-card .field {
+  margin-bottom: 16px;
+}
+
+.issue-card .field > label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.issue-card select {
+  padding: 10px;
+  background: #ffffff;
+  color: #686868;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  max-width: 100%;
+}
+
+.issue-card .custom-select {
+  width: 100%;
+}
+
+.issue-card .cs-toggle {
+  width: 100%;
+  color: #131313 !important;
+  font-size: 14px;
+}
+
+.issue-card .cs-label {
+  color: #131313 !important;
+}
+
+.issue-card .cs-options {
+  z-index: 999;
+}
+
+.issue-card .cs-option {
+  color: #0f172a !important;
+  cursor: pointer;
+}
+
+.request-details {
+  background: #f2f8f6;
+  padding: 14px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.selected-device {
+  background: #f2f8f6;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+/* Make assignment message wrap nicely and not expand layout */
+.assignment-message {
+  word-break: break-word;
+}
+
+/* Limit option toggle text to avoid pushing layout */
+.issue-card .cs-toggle {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.assign-btn {
+  margin-top: 8px;
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.assign-btn:hover {
+  background: #065f46;
+}
+
+.assignment-message {
+  margin-top: 12px;
+  background: #ecfdf5;
+  color: #065f46;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border-left: 4px solid #22c55e;
+}

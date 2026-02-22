@@ -1,0 +1,37 @@
+.table-wrapper {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+.device-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.device-table th,
+.device-table td {
+  padding: 14px 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.device-table th {
+  background: #f9fafb;
+  font-weight: 600;
+  color: #374151;
+}
+
+.device-table tr:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* .view-btn {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+} */

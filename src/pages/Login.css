@@ -49,12 +49,13 @@
   border: 1px solid #e5e7eb;
   font-size: 14px;
   background: #ffffff;
+  color: #131313;
 }
 
-/* .login-form button {
+.login-form button {
   width: 100%;
   padding: 12px;
-  background: #131313;
+  background: #065f46;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -64,15 +65,23 @@
 }
 .login-form button:hover {
   filter: brightness(0.98);
-} */
+}
 
 .forgot-password {
   display: block;
   margin-top: 12px;
   font-size: 13px;
   color: #6b7280;
-  text-align: center;
+  text-align: left;
   cursor: pointer;
+}
+
+.error-message {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 13px;
+  color: #dc2626;
+  text-align: left;
 }
 
 @media (max-width: 420px) {
